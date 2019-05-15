@@ -68,11 +68,17 @@ class ViewController: UIViewController {
     func sum() {
         
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        UIView.animate(withDuration: 1, animations: {
+            self.carFrame?.transform = CGAffineTransform(translationX: 10, y: 0)
+        }, completion: nil)
+    }
 
     @IBAction func moveRight(_ sender: Any) {
         UIView.animate(withDuration: 1, animations: {
             self.carFrame?.transform = CGAffineTransform(translationX: 10, y: 0)
-        })
+        }, completion: nil)
     }
     
     

@@ -15,6 +15,7 @@
 		1E44584D228BA8890005D05B /* LearnerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E44584C228BA8890005D05B /* LearnerModel.swift */; };
 		1E445850228BB45F0005D05B /* CarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E44584F228BB45F0005D05B /* CarModel.swift */; };
 		1E445852228BC4C40005D05B /* FacilitatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E445851228BC4C40005D05B /* FacilitatorModel.swift */; };
+		1E445854228BC94A0005D05B /* MenteeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E445853228BC94A0005D05B /* MenteeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		1E44584C228BA8890005D05B /* LearnerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnerModel.swift; sourceTree = "<group>"; };
 		1E44584F228BB45F0005D05B /* CarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarModel.swift; sourceTree = "<group>"; };
 		1E445851228BC4C40005D05B /* FacilitatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilitatorModel.swift; sourceTree = "<group>"; };
+		1E445853228BC94A0005D05B /* MenteeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenteeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				1E44584C228BA8890005D05B /* LearnerModel.swift */,
 				1E44584F228BB45F0005D05B /* CarModel.swift */,
 				1E445851228BC4C40005D05B /* FacilitatorModel.swift */,
+				1E445853228BC94A0005D05B /* MenteeModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E445850228BB45F0005D05B /* CarModel.swift in Sources */,
+				1E445854228BC94A0005D05B /* MenteeModel.swift in Sources */,
 				1E44583D228B9CF90005D05B /* ViewController.swift in Sources */,
 				1E44584D228BA8890005D05B /* LearnerModel.swift in Sources */,
 				1E445852228BC4C40005D05B /* FacilitatorModel.swift in Sources */,
