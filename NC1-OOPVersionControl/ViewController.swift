@@ -15,6 +15,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         print("My first commit")
+        print("My second COMMIT")
+    }
+    
+    func sum() {
+        
     }
 
 
